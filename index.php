@@ -40,7 +40,7 @@
     </div>
   </nav>
       <div class = "row" style="margin-left:20px">
-         <form class = "col s12" action="results" method="post"> 
+         <form class = "col s12" action="results.php" method="post"> 
 		 <h5 class="top50">1. Who is your favourite author?</h5>
             <div class = "row">
                <div class = "input-field col s12">
