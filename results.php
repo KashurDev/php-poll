@@ -6,7 +6,7 @@
 	$author = $_POST["author"];
 	$sql = "INSERT INTO poll (author, count) VALUES ('$author', 1)";
 	if($myvote->addVote($sql)) {
-		 $_SESSION["voted"]=1;		 //uncomment this if you want to allow multiple voting from a single user
+		// $_SESSION["voted"]=1;		 //uncomment this if you want to allow multiple voting from a single user
 	}
 	$miguelcount=$myvote->getCount('miguel');
 	$charlescount=$myvote->getCount('charles');
